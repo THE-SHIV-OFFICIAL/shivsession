@@ -1,0 +1,56 @@
+{
+  "name": "sʜɪᴠ sᴛʀɪɴɢ ᴍᴀᴋᴇʀ",
+  "description": "ᴀ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ & ᴛᴇʟᴇᴛʜᴏɴ sᴛʀɪɴɢ sᴇssɪᴏɴs ᴇᴀsɪʟʏ. 🤞 𝐏ᴏᴡєʀєᴅ 𝐁ʏ ➛ BETA BOT HUB.🙂❤️",
+  "logo": "https://files.catbox.moe/gyeoqw.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram",
+    "telethon",
+    "string session",
+    "beta bot hub"
+  ],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "ɢᴇᴛ ᴛʜɪs ᴛᴏᴋᴇɴ ғʀᴏᴍ @BotFather",
+      "required": true
+    },
+    "API_ID": {
+      "description": "ᴛᴇʟᴇɢʀᴀᴍ API ID ғʀᴏᴍ https://my.telegram.org",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "ᴛᴇʟᴇɢʀᴀᴍ API ʜᴀsʜ ғʀᴏᴍ https://my.telegram.org",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴍ ɴᴜᴍᴇʀɪᴄ ᴜsᴇʀ ɪᴅ (ᴀs ᴏᴡɴᴇʀ)",
+      "required": true
+    },
+    "MONGO_DB_URI": {
+      "description": "ʏᴏᴜʀ ᴍᴏɴɢᴏ-ᴅʙ ᴜʀɪ sᴛʀɪɴɢ (sᴛᴀʀᴛɪɴɢ ᴡɪᴛʜ mongodb+srv...)",
+      "required": true
+    },
+    "MUST_JOIN": {
+      "description": "ᴄʜᴀɴɴᴇʟ ᴏʀ ɢʀᴏᴜᴘ ᴜsᴇʀɴᴀᴍᴇ ғᴏʀ ғᴏʀᴄᴇ ᴊᴏɪɴ (ᴡɪᴛʜᴏᴜᴛ @)",
+      "required": false,
+      "value": "BETABOT_HUB BETABOT_SUPPORT SUKOON_S"
+    },
+    "SUPPORT_CHAT": {
+      "description": "sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴜsᴇʀɴᴀᴍᴇ (ᴡɪᴛʜᴏᴜᴛ @)",
+      "required": false,
+      "value": "betabot_support"
+    },
+    "UPDATE_CHANNEL": {
+      "description": "ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ᴜsᴇʀɴᴀᴍᴇ (ᴡɪᴛʜᴏᴜᴛ @)",
+      "required": false,
+      "value": "betabot_hub"
+    },
+    "LOG_GROUP_ID": {
+      "description": "Optional Telegram log group ID (0 to disable)",
+      "required": false,
+      "value": "0"
+    }
+  }
+}
